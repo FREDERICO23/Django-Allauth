@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     # 3rd party social apps
     # 'allauth.socialaccount.providers.facebook',
     #'allauth.socialaccount.providers.twitter',
-    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.digitalocean',
 
 ]
 
@@ -143,8 +143,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # authentification
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'homepage'
+LOGOUT_REDIRECT_URL = 'homepage'
 
-SITE_ID = 2
+SITE_ID =3
 
